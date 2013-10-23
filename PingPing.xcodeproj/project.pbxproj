@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		801A4F1418187199000CA8F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801A4F1318187199000CA8F5 /* Foundation.framework */; };
+		801A4F1618187199000CA8F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801A4F1518187199000CA8F5 /* CoreGraphics.framework */; };
+		801A4F1818187199000CA8F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801A4F1718187199000CA8F5 /* UIKit.framework */; };
+		801A4F1E18187199000CA8F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 801A4F1C18187199000CA8F5 /* InfoPlist.strings */; };
+		801A4F2018187199000CA8F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 801A4F1F18187199000CA8F5 /* main.m */; };
+		801A4F2418187199000CA8F5 /* HDMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 801A4F2318187199000CA8F5 /* HDMAppDelegate.m */; };
+		801A4F2618187199000CA8F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 801A4F2518187199000CA8F5 /* Images.xcassets */; };
+		801A4F2D18187199000CA8F5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801A4F2C18187199000CA8F5 /* XCTest.framework */; };
+		801A4F2E18187199000CA8F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801A4F1318187199000CA8F5 /* Foundation.framework */; };
+		801A4F2F18187199000CA8F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801A4F1718187199000CA8F5 /* UIKit.framework */; };
+		801A4F3718187199000CA8F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 801A4F3518187199000CA8F5 /* InfoPlist.strings */; };
+		801A4F3918187199000CA8F5 /* PingPingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 801A4F3818187199000CA8F5 /* PingPingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		801A4F3018187199000CA8F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 801A4F0818187199000CA8F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 801A4F0F18187199000CA8F5;
+			remoteInfo = PingPing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		801A4F1018187199000CA8F5 /* PingPing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingPing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		801A4F1318187199000CA8F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		801A4F1518187199000CA8F5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		801A4F1718187199000CA8F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		801A4F1B18187199000CA8F5 /* PingPing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PingPing-Info.plist"; sourceTree = "<group>"; };
+		801A4F1D18187199000CA8F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		801A4F1F18187199000CA8F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		801A4F2118187199000CA8F5 /* PingPing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PingPing-Prefix.pch"; sourceTree = "<group>"; };
+		801A4F2218187199000CA8F5 /* HDMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDMAppDelegate.h; sourceTree = "<group>"; };
+		801A4F2318187199000CA8F5 /* HDMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDMAppDelegate.m; sourceTree = "<group>"; };
+		801A4F2518187199000CA8F5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		801A4F2B18187199000CA8F5 /* PingPingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PingPingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		801A4F2C18187199000CA8F5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		801A4F3418187199000CA8F5 /* PingPingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PingPingTests-Info.plist"; sourceTree = "<group>"; };
+		801A4F3618187199000CA8F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		801A4F3818187199000CA8F5 /* PingPingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PingPingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		801A4F0D18187199000CA8F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801A4F1618187199000CA8F5 /* CoreGraphics.framework in Frameworks */,
+				801A4F1818187199000CA8F5 /* UIKit.framework in Frameworks */,
+				801A4F1418187199000CA8F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801A4F2818187199000CA8F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801A4F2D18187199000CA8F5 /* XCTest.framework in Frameworks */,
+				801A4F2F18187199000CA8F5 /* UIKit.framework in Frameworks */,
+				801A4F2E18187199000CA8F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		801A4F0718187199000CA8F5 = {
+			isa = PBXGroup;
+			children = (
+				801A4F1918187199000CA8F5 /* PingPing */,
+				801A4F3218187199000CA8F5 /* PingPingTests */,
+				801A4F1218187199000CA8F5 /* Frameworks */,
+				801A4F1118187199000CA8F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		801A4F1118187199000CA8F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				801A4F1018187199000CA8F5 /* PingPing.app */,
+				801A4F2B18187199000CA8F5 /* PingPingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		801A4F1218187199000CA8F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				801A4F1318187199000CA8F5 /* Foundation.framework */,
+				801A4F1518187199000CA8F5 /* CoreGraphics.framework */,
+				801A4F1718187199000CA8F5 /* UIKit.framework */,
+				801A4F2C18187199000CA8F5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		801A4F1918187199000CA8F5 /* PingPing */ = {
+			isa = PBXGroup;
+			children = (
+				801A4F2218187199000CA8F5 /* HDMAppDelegate.h */,
+				801A4F2318187199000CA8F5 /* HDMAppDelegate.m */,
+				801A4F2518187199000CA8F5 /* Images.xcassets */,
+				801A4F1A18187199000CA8F5 /* Supporting Files */,
+			);
+			path = PingPing;
+			sourceTree = "<group>";
+		};
+		801A4F1A18187199000CA8F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				801A4F1B18187199000CA8F5 /* PingPing-Info.plist */,
+				801A4F1C18187199000CA8F5 /* InfoPlist.strings */,
+				801A4F1F18187199000CA8F5 /* main.m */,
+				801A4F2118187199000CA8F5 /* PingPing-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		801A4F3218187199000CA8F5 /* PingPingTests */ = {
+			isa = PBXGroup;
+			children = (
+				801A4F3818187199000CA8F5 /* PingPingTests.m */,
+				801A4F3318187199000CA8F5 /* Supporting Files */,
+			);
+			path = PingPingTests;
+			sourceTree = "<group>";
+		};
+		801A4F3318187199000CA8F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				801A4F3418187199000CA8F5 /* PingPingTests-Info.plist */,
+				801A4F3518187199000CA8F5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		801A4F0F18187199000CA8F5 /* PingPing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 801A4F3C18187199000CA8F5 /* Build configuration list for PBXNativeTarget "PingPing" */;
+			buildPhases = (
+				801A4F0C18187199000CA8F5 /* Sources */,
+				801A4F0D18187199000CA8F5 /* Frameworks */,
+				801A4F0E18187199000CA8F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PingPing;
+			productName = PingPing;
+			productReference = 801A4F1018187199000CA8F5 /* PingPing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		801A4F2A18187199000CA8F5 /* PingPingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 801A4F3F18187199000CA8F5 /* Build configuration list for PBXNativeTarget "PingPingTests" */;
+			buildPhases = (
+				801A4F2718187199000CA8F5 /* Sources */,
+				801A4F2818187199000CA8F5 /* Frameworks */,
+				801A4F2918187199000CA8F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				801A4F3118187199000CA8F5 /* PBXTargetDependency */,
+			);
+			name = PingPingTests;
+			productName = PingPingTests;
+			productReference = 801A4F2B18187199000CA8F5 /* PingPingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		801A4F0818187199000CA8F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HDM;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "HdM Stuttgart";
+				TargetAttributes = {
+					801A4F2A18187199000CA8F5 = {
+						TestTargetID = 801A4F0F18187199000CA8F5;
+					};
+				};
+			};
+			buildConfigurationList = 801A4F0B18187199000CA8F5 /* Build configuration list for PBXProject "PingPing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 801A4F0718187199000CA8F5;
+			productRefGroup = 801A4F1118187199000CA8F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				801A4F0F18187199000CA8F5 /* PingPing */,
+				801A4F2A18187199000CA8F5 /* PingPingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		801A4F0E18187199000CA8F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801A4F1E18187199000CA8F5 /* InfoPlist.strings in Resources */,
+				801A4F2618187199000CA8F5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801A4F2918187199000CA8F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801A4F3718187199000CA8F5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		801A4F0C18187199000CA8F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801A4F2418187199000CA8F5 /* HDMAppDelegate.m in Sources */,
+				801A4F2018187199000CA8F5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801A4F2718187199000CA8F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801A4F3918187199000CA8F5 /* PingPingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		801A4F3118187199000CA8F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 801A4F0F18187199000CA8F5 /* PingPing */;
+			targetProxy = 801A4F3018187199000CA8F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		801A4F1C18187199000CA8F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				801A4F1D18187199000CA8F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		801A4F3518187199000CA8F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				801A4F3618187199000CA8F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		801A4F3A18187199000CA8F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		801A4F3B18187199000CA8F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		801A4F3D18187199000CA8F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PingPing/PingPing-Prefix.pch";
+				INFOPLIST_FILE = "PingPing/PingPing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		801A4F3E18187199000CA8F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PingPing/PingPing-Prefix.pch";
+				INFOPLIST_FILE = "PingPing/PingPing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		801A4F4018187199000CA8F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PingPing.app/PingPing";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PingPing/PingPing-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PingPingTests/PingPingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		801A4F4118187199000CA8F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PingPing.app/PingPing";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PingPing/PingPing-Prefix.pch";
+				INFOPLIST_FILE = "PingPingTests/PingPingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		801A4F0B18187199000CA8F5 /* Build configuration list for PBXProject "PingPing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801A4F3A18187199000CA8F5 /* Debug */,
+				801A4F3B18187199000CA8F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		801A4F3C18187199000CA8F5 /* Build configuration list for PBXNativeTarget "PingPing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801A4F3D18187199000CA8F5 /* Debug */,
+				801A4F3E18187199000CA8F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		801A4F3F18187199000CA8F5 /* Build configuration list for PBXNativeTarget "PingPingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801A4F4018187199000CA8F5 /* Debug */,
+				801A4F4118187199000CA8F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 801A4F0818187199000CA8F5 /* Project object */;
+}
