@@ -2,8 +2,8 @@
 //  HDMAppDelegate.m
 //  PingPing
 //
-//  Created by Lukas Spieß on 23.10.13.
-//  Copyright (c) 2013 HdM Stuttgart. All rights reserved.
+//  Created by Marc Stauffer on 24.10.13.
+//  Copyright (c) 2013 Marc Stauffer. All rights reserved.
 //
 
 #import "HDMAppDelegate.h"

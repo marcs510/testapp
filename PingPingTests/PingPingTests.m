@@ -2,33 +2,31 @@
 //  PingPingTests.m
 //  PingPingTests
 //
-//  Created by Lukas Spieß on 23.10.13.
-//  Copyright (c) 2013 HdM Stuttgart. All rights reserved.
+//  Created by Marc Stauffer on 24.10.13.
+//  Copyright (c) 2013 Marc Stauffer. All rights reserved.
 //
 
-#import <XCTest/XCTest.h>
-
-@interface PingPingTests : XCTestCase
-
-@end
+#import "PingPingTests.h"
 
 @implementation PingPingTests
 
 - (void)setUp
 {
     [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+    
+    // Set-up code here.
 }
 
 - (void)tearDown
 {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
+    // Tear-down code here.
+    
     [super tearDown];
 }
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    STFail(@"Unit tests are not implemented yet in PingPingTests");
 }
 
 @end
