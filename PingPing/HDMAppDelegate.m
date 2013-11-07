@@ -7,14 +7,26 @@
 //
 
 #import "HDMAppDelegate.h"
+#import "HDMServerListViewController.h"
 
 @implementation HDMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    // Erzeuge ersten ViewController
+    HDMServerListViewController *hdmServerListViewController;
+    hdmServerListViewController = [[HDMServerListViewController alloc] initWithNibName:@"HDMServerListViewController"bundle:nil];
+    
+    //Erzeuge UINavigationController
+    UINavigationController *navigationController;
+    navigationController = [[UINavigationController alloc]initWithRootViewController:hdmServerListViewController];
+    
+    //Setze UINavigationController als rootViewController des windows
+    self.window.rootViewController = navigationController;
+
     [self.window makeKeyAndVisible];
     return YES;
 }

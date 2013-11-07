@@ -25,8 +25,6 @@
 		8079B67118196BFB00281977 /* HDMServerListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8079B66F18196BFB00281977 /* HDMServerListViewController.xib */; };
 		8079B67518196D4D00281977 /* HDMServerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8079B67318196D4D00281977 /* HDMServerDetailViewController.m */; };
 		8079B67618196D4D00281977 /* HDMServerDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8079B67418196D4D00281977 /* HDMServerDetailViewController.xib */; };
-		8079B67A18196D5A00281977 /* HDMServerAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8079B67818196D5A00281977 /* HDMServerAddViewController.m */; };
-		8079B67B18196D5A00281977 /* HDMServerAddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8079B67918196D5A00281977 /* HDMServerAddViewController.xib */; };
 		8079B67F18196D6700281977 /* HDMImprintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8079B67D18196D6700281977 /* HDMImprintViewController.m */; };
 		8079B68018196D6700281977 /* HDMImprintViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8079B67E18196D6700281977 /* HDMImprintViewController.xib */; };
 /* End PBXBuildFile section */
@@ -67,9 +65,6 @@
 		8079B67218196D4D00281977 /* HDMServerDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMServerDetailViewController.h; sourceTree = "<group>"; };
 		8079B67318196D4D00281977 /* HDMServerDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMServerDetailViewController.m; sourceTree = "<group>"; };
 		8079B67418196D4D00281977 /* HDMServerDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDMServerDetailViewController.xib; sourceTree = "<group>"; };
-		8079B67718196D5A00281977 /* HDMServerAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMServerAddViewController.h; sourceTree = "<group>"; };
-		8079B67818196D5A00281977 /* HDMServerAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMServerAddViewController.m; sourceTree = "<group>"; };
-		8079B67918196D5A00281977 /* HDMServerAddViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDMServerAddViewController.xib; sourceTree = "<group>"; };
 		8079B67C18196D6700281977 /* HDMImprintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMImprintViewController.h; sourceTree = "<group>"; };
 		8079B67D18196D6700281977 /* HDMImprintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMImprintViewController.m; sourceTree = "<group>"; };
 		8079B67E18196D6700281977 /* HDMImprintViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDMImprintViewController.xib; sourceTree = "<group>"; };
@@ -140,9 +135,6 @@
 				8079B67218196D4D00281977 /* HDMServerDetailViewController.h */,
 				8079B67318196D4D00281977 /* HDMServerDetailViewController.m */,
 				8079B67418196D4D00281977 /* HDMServerDetailViewController.xib */,
-				8079B67718196D5A00281977 /* HDMServerAddViewController.h */,
-				8079B67818196D5A00281977 /* HDMServerAddViewController.m */,
-				8079B67918196D5A00281977 /* HDMServerAddViewController.xib */,
 				8079B67C18196D6700281977 /* HDMImprintViewController.h */,
 				8079B67D18196D6700281977 /* HDMImprintViewController.m */,
 				8079B67E18196D6700281977 /* HDMImprintViewController.xib */,
@@ -259,7 +251,6 @@
 				8079B68018196D6700281977 /* HDMImprintViewController.xib in Resources */,
 				68C4260D18194BB6000C46C5 /* InfoPlist.strings in Resources */,
 				8079B67118196BFB00281977 /* HDMServerListViewController.xib in Resources */,
-				8079B67B18196D5A00281977 /* HDMServerAddViewController.xib in Resources */,
 				68C4261518194BB6000C46C5 /* Default.png in Resources */,
 				68C4261718194BB6000C46C5 /* Default@2x.png in Resources */,
 				8079B67618196D4D00281977 /* HDMServerDetailViewController.xib in Resources */,
@@ -303,7 +294,6 @@
 				8079B67F18196D6700281977 /* HDMImprintViewController.m in Sources */,
 				68C4260F18194BB6000C46C5 /* main.m in Sources */,
 				68C4261318194BB6000C46C5 /* HDMAppDelegate.m in Sources */,
-				8079B67A18196D5A00281977 /* HDMServerAddViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

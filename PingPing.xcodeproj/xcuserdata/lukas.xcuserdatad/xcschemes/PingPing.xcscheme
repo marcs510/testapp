@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "801A4F0F18187199000CA8F5"
+               BlueprintIdentifier = "68C425FE18194BB6000C46C5"
                BuildableName = "PingPing.app"
                BlueprintName = "PingPing"
                ReferencedContainer = "container:PingPing.xcodeproj">
@@ -32,8 +32,8 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "801A4F2A18187199000CA8F5"
-               BuildableName = "PingPingTests.xctest"
+               BlueprintIdentifier = "68C4261E18194BB6000C46C5"
+               BuildableName = "PingPingTests.octest"
                BlueprintName = "PingPingTests"
                ReferencedContainer = "container:PingPing.xcodeproj">
             </BuildableReference>
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "801A4F0F18187199000CA8F5"
+            BlueprintIdentifier = "68C425FE18194BB6000C46C5"
             BuildableName = "PingPing.app"
             BlueprintName = "PingPing"
             ReferencedContainer = "container:PingPing.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "801A4F0F18187199000CA8F5"
+            BlueprintIdentifier = "68C425FE18194BB6000C46C5"
             BuildableName = "PingPing.app"
             BlueprintName = "PingPing"
             ReferencedContainer = "container:PingPing.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "801A4F0F18187199000CA8F5"
+            BlueprintIdentifier = "68C425FE18194BB6000C46C5"
             BuildableName = "PingPing.app"
             BlueprintName = "PingPing"
             ReferencedContainer = "container:PingPing.xcodeproj">
