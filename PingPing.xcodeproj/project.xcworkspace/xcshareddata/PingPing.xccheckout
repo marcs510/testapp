@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FE0041E4-D048-4E58-BAE0-B71050E6361E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PingPing</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8DED05C5-9DAD-4C98-B614-6FA0B9623566</key>
+		<string>https://version.mi.hdm-stuttgart.de/git/mmb-praktikum-ws2013-gruppe1</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PingPing.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8DED05C5-9DAD-4C98-B614-6FA0B9623566</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://version.mi.hdm-stuttgart.de/git/mmb-praktikum-ws2013-gruppe1</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8DED05C5-9DAD-4C98-B614-6FA0B9623566</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8DED05C5-9DAD-4C98-B614-6FA0B9623566</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PingPing</string>
+		</dict>
+	</array>
+</dict>
+</plist>
