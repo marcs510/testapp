@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HDMListViewController : UIViewController
+@interface HDMServerListViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @end

@@ -6,13 +6,13 @@
 //  Copyright (c) 2013 Marc Stauffer. All rights reserved.
 //
 
-#import "HDMListViewController.h"
+#import "HDMServerListViewController.h"
 
-@interface HDMListViewController ()
+@interface HDMServerListViewController ()
 
 @end
 
-@implementation HDMListViewController
+@implementation HDMServerListViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -35,4 +35,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+}
 @end

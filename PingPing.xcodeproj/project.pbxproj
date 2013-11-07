@@ -21,6 +21,14 @@
 		68C4262318194BB6000C46C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C4260418194BB6000C46C5 /* Foundation.framework */; };
 		68C4262B18194BB6000C46C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68C4262918194BB6000C46C5 /* InfoPlist.strings */; };
 		68C4262E18194BB6000C46C5 /* PingPingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C4262D18194BB6000C46C5 /* PingPingTests.m */; };
+		8079B67018196BFB00281977 /* HDMServerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8079B66E18196BFB00281977 /* HDMServerListViewController.m */; };
+		8079B67118196BFB00281977 /* HDMServerListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8079B66F18196BFB00281977 /* HDMServerListViewController.xib */; };
+		8079B67518196D4D00281977 /* HDMServerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8079B67318196D4D00281977 /* HDMServerDetailViewController.m */; };
+		8079B67618196D4D00281977 /* HDMServerDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8079B67418196D4D00281977 /* HDMServerDetailViewController.xib */; };
+		8079B67A18196D5A00281977 /* HDMServerAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8079B67818196D5A00281977 /* HDMServerAddViewController.m */; };
+		8079B67B18196D5A00281977 /* HDMServerAddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8079B67918196D5A00281977 /* HDMServerAddViewController.xib */; };
+		8079B67F18196D6700281977 /* HDMImprintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8079B67D18196D6700281977 /* HDMImprintViewController.m */; };
+		8079B68018196D6700281977 /* HDMImprintViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8079B67E18196D6700281977 /* HDMImprintViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,18 @@
 		68C4262A18194BB6000C46C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		68C4262C18194BB6000C46C5 /* PingPingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PingPingTests.h; sourceTree = "<group>"; };
 		68C4262D18194BB6000C46C5 /* PingPingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PingPingTests.m; sourceTree = "<group>"; };
+		8079B66D18196BFB00281977 /* HDMServerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMServerListViewController.h; sourceTree = "<group>"; };
+		8079B66E18196BFB00281977 /* HDMServerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMServerListViewController.m; sourceTree = "<group>"; };
+		8079B66F18196BFB00281977 /* HDMServerListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDMServerListViewController.xib; sourceTree = "<group>"; };
+		8079B67218196D4D00281977 /* HDMServerDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMServerDetailViewController.h; sourceTree = "<group>"; };
+		8079B67318196D4D00281977 /* HDMServerDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMServerDetailViewController.m; sourceTree = "<group>"; };
+		8079B67418196D4D00281977 /* HDMServerDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDMServerDetailViewController.xib; sourceTree = "<group>"; };
+		8079B67718196D5A00281977 /* HDMServerAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMServerAddViewController.h; sourceTree = "<group>"; };
+		8079B67818196D5A00281977 /* HDMServerAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMServerAddViewController.m; sourceTree = "<group>"; };
+		8079B67918196D5A00281977 /* HDMServerAddViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDMServerAddViewController.xib; sourceTree = "<group>"; };
+		8079B67C18196D6700281977 /* HDMImprintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMImprintViewController.h; sourceTree = "<group>"; };
+		8079B67D18196D6700281977 /* HDMImprintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMImprintViewController.m; sourceTree = "<group>"; };
+		8079B67E18196D6700281977 /* HDMImprintViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDMImprintViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +134,18 @@
 			children = (
 				68C4261118194BB6000C46C5 /* HDMAppDelegate.h */,
 				68C4261218194BB6000C46C5 /* HDMAppDelegate.m */,
+				8079B66D18196BFB00281977 /* HDMServerListViewController.h */,
+				8079B66E18196BFB00281977 /* HDMServerListViewController.m */,
+				8079B66F18196BFB00281977 /* HDMServerListViewController.xib */,
+				8079B67218196D4D00281977 /* HDMServerDetailViewController.h */,
+				8079B67318196D4D00281977 /* HDMServerDetailViewController.m */,
+				8079B67418196D4D00281977 /* HDMServerDetailViewController.xib */,
+				8079B67718196D5A00281977 /* HDMServerAddViewController.h */,
+				8079B67818196D5A00281977 /* HDMServerAddViewController.m */,
+				8079B67918196D5A00281977 /* HDMServerAddViewController.xib */,
+				8079B67C18196D6700281977 /* HDMImprintViewController.h */,
+				8079B67D18196D6700281977 /* HDMImprintViewController.m */,
+				8079B67E18196D6700281977 /* HDMImprintViewController.xib */,
 				68C4260918194BB6000C46C5 /* Supporting Files */,
 			);
 			path = PingPing;
@@ -224,9 +256,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8079B68018196D6700281977 /* HDMImprintViewController.xib in Resources */,
 				68C4260D18194BB6000C46C5 /* InfoPlist.strings in Resources */,
+				8079B67118196BFB00281977 /* HDMServerListViewController.xib in Resources */,
+				8079B67B18196D5A00281977 /* HDMServerAddViewController.xib in Resources */,
 				68C4261518194BB6000C46C5 /* Default.png in Resources */,
 				68C4261718194BB6000C46C5 /* Default@2x.png in Resources */,
+				8079B67618196D4D00281977 /* HDMServerDetailViewController.xib in Resources */,
 				68C4261918194BB6000C46C5 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,8 +298,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8079B67518196D4D00281977 /* HDMServerDetailViewController.m in Sources */,
+				8079B67018196BFB00281977 /* HDMServerListViewController.m in Sources */,
+				8079B67F18196D6700281977 /* HDMImprintViewController.m in Sources */,
 				68C4260F18194BB6000C46C5 /* main.m in Sources */,
 				68C4261318194BB6000C46C5 /* HDMAppDelegate.m in Sources */,
+				8079B67A18196D5A00281977 /* HDMServerAddViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +476,7 @@
 				68C4263318194BB6000C46C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68C4263418194BB6000C46C5 /* Build configuration list for PBXNativeTarget "PingPingTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +485,7 @@
 				68C4263618194BB6000C46C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
